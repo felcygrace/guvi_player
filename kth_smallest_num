@@ -1,0 +1,8 @@
+n=int(input())
+k=int(input())
+l=[]
+for i in range(n):
+  i=int(input())
+  l.append(i)
+f=sorted(l)
+print(f[k-1])
